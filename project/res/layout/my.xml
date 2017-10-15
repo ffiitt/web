@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="尊敬的用户"
+        android:textSize = "30sp" />
+   
+   <TableLayout
+       android:layout_width="fill_parent"
+       android:layout_height="300dp"
+       android:layout_marginTop="50dp"
+       android:stretchColumns="1" >
+       
+       <TableRow >
+           <TextView 
+               android:layout_column="1"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="周一"/>
+           <TextView 
+               android:id="@+id/Monday"
+               android:gravity="right"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="篮球"/>
+       </TableRow>
+       
+       <View
+           android:layout_height="3dip"
+           android:background="#FF909090"/>
+       
+       <TableRow>
+           <TextView 
+               android:layout_column="1"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="周二"/>
+           <TextView 
+               android:id="@+id/Tuesday"
+               android:gravity="right"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="羽毛球"/>
+       </TableRow>
+       <View
+           android:layout_height="3dip"
+           android:background="#FF909090"/>
+       <TableRow >
+           <TextView 
+               android:layout_column="1"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="周三"/>
+           <TextView 
+               android:id="@+id/Wednesday"
+               android:gravity="right"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="网球"/>
+       </TableRow>
+       <View
+           android:layout_height="3dip"
+           android:background="#FF909090"/>
+       <TableRow>
+           <TextView 
+               android:layout_column="1"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="周四"/>
+           <TextView 
+               android:id="@+id/Thursday"
+               android:gravity="right"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="健身"/>    
+       </TableRow>
+       <View
+           android:layout_height="3dip"
+           android:background="#FF909090"/>
+       <TableRow>
+           <TextView 
+               android:layout_column="1"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="周五"/>
+           <TextView 
+               android:id="@+id/Friday"
+               android:gravity="right"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="篮球"/>    
+       </TableRow>
+       <View
+           android:layout_height="3dip"
+           android:background="#FF909090"/>
+       <TableRow>
+           <TextView 
+               android:layout_column="1"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="周六"/>
+           <TextView 
+               android:id="@+id/Saturday"
+               android:gravity="right"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="休息"/>    
+       </TableRow>
+       <View
+           android:layout_height="3dip"
+           android:background="#FF909090"/>
+       <TableRow>
+           <TextView 
+               android:layout_column="1"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="周日"/>
+           <TextView 
+               android:id="@+id/Sunday"
+               android:gravity="right"
+               android:padding="3dip"
+               android:textSize="25dp"
+               android:text="休息"/>    
+       </TableRow>
+       <View
+           android:layout_height="3dip"
+           android:background="#FF909090"/>
+       
+       
+       
+   </TableLayout>
+       
+
+</LinearLayout>
